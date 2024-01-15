@@ -1,4 +1,4 @@
-# PNNL Example Building 2
+# Building 2 model 1
 
 This is an example building model provided by Pacific Northwest National Laboratory.
 
