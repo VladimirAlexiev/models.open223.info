@@ -1,4 +1,4 @@
-# Example Building 1 model 2
+# Building 1 model 2
 
 Example Building 1 is a simplistic, reference tiny office building consisting of a single story with 5 rooms spanning 5 space types.
 
