@@ -7,12 +7,12 @@ root: intro
 parts:
 - caption: Example Buildings
   chapters:
-  - file: examples/bdg1-1.md
-  - file: examples/bdg1-2.md
+  - file: examples/bldg1-1.md
+  - file: examples/bldg1-2.md
   - file: examples/lbnl-example.md
   - file: examples/nist-example.md
   - file: examples/NREL-example.md
-  - file: examples/pnnl-example2.md
+  - file: examples/bldg2-1.md
   
 - caption: Example Systems
   chapters:
