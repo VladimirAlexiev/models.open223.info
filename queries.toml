@@ -69,6 +69,7 @@ SELECT ?channel ?property_id ?unit WHERE {
     }
 }
 """
+
 [[nist-example]]
 description="Find the downstream equipment for AHU1."
 query="""
@@ -97,3 +98,14 @@ SELECT ?connectionDown ?connectionDown2 WHERE {
 	}
 }
 """
+[[bldg1-2]]
+description="What is the gross building floor area (in square meters)?"
+query=""
+SELECT (SUM (?area) AS ?sumarea)​
+WHERE {​
+        ?floor a s223:PhysicalSpace.​
+        ?floor rdfs:label "PhysicalSpace".​
+        ?floor s223:hasProperty ?property.​
+        ?property s223:hasValue ?area.​
+        ?property qudt:hasUnit unit:M2.​
+        }​
