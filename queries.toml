@@ -98,6 +98,7 @@ SELECT ?connectionDown ?connectionDown2 WHERE {
 	}
 }
 """
+
 [[bldg1-2]]
 description="What is the gross building floor area (in square meters)?"
 query=""
@@ -109,3 +110,4 @@ WHERE {​
         ?property s223:hasValue ?area.​
         ?property qudt:hasUnit unit:M2.​
         }​
+"""
